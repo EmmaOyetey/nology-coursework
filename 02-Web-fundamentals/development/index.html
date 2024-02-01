@@ -4,24 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--meta data to just settign things up it tells it what to expect-->
     <title>Web Fundamentals Palace</title>                                  <!--this line will be seen by the browser-->
+    <link rel="stylesheet" href="styles.css">                               <!--this links to an external style sheet named style.css-->
 </head>
+
+    <!--typing the following inside the head tag above would be an example of internal styling. 
+        This would result in the h1 header turning red and all p tags being centre aligned.  
+            <style>
+                h1{color: red;}
+                p{text-align: center;}
+            </style>
+    -->
+    
 <body>                                                                      <!--this will hold all the content for the web page-->
     <header> 
-    <!-- This contains a title and short paragraph -->
+    <!-- This contains a title (header) and short paragraph -->
         <h1 id="top">The Web Fundamentals Palace</h1>
         <p>Hover over the family members below to take a peak into the lives of those living at Web Fundamentals Palace</p>
     </header>  
 
+    <!--If you wanted to use inline styling examples include using style within the h1 tag like this
+       <h1 style="color:red;" id="top">The Web Fundamentals Palace</h1>
+        <p style="text-align: center;">Hover over the family members below to take a peak into the lives of those living at Web Fundamentals Palace</p>
+    </header>  
+    -->
+
     <main>
         <!-- The main content with each member of the family -->
         <h2>King Kieran</h2> 
-        <img src="./images/king.jpg" alt="King Kieran">                     <!--src gives the route to the image - where to find it. alt gives a descriptor. this will be read out if browser has accessibility tools on-->
+        <img src="./images/king.jpg" alt="King Kieran">                     
+        <!--src gives the route to the image - where to find it. alt gives a descriptor. 
+            this will be read out if browser has accessibility tools on-->
         <p>My name is Kieran and I am the king. I like Karate and kite surfing. My son <a href="#peter">Peter</a> is the heir to the throne.</p> 
-                                                                            <!--above we have made an anocor tag. This one moves to an identified place in the content-->
+        <!--above we have made an anocor tag. This one moves to an identified place in the content-->
         <h3>Queen Queenie</h3>
         <img src="./images/queen.jpg" alt="Queen Queenie">
         <p>My name is Queenie and I am the Queen. I like quizes and quesadillas. Click  <a href="https://www.bbc.co.uk/food/recipes/chickenandcheeseques_85536" target="_blank">here</a> to see my favourite quesadillas recipie.</p>
-                                                                            <!--the anchor tag above takes us to a linked web page-->
+        <!--the anchor tag above takes us to a linked web page-->
         <h4 id="peter">Prince Peter</h4>
         <img src="./images/prince-peter.jpg" alt="Prince Peter">
         <p>My name is Peter the Prince. I like posing and pizza! Follow me on instagram @pengprincepeter </p>
@@ -29,7 +47,7 @@
         <h5>Princess Penelope</h5>
         <img src="./images/princess-penelope.jpg" alt="princess penelope">
         <p>My name is Princess Penelope. I like lots of things ...</p>
-       <ul>                                                                 <!-- An undefined list with each item identified below. will appear as bullets         -->
+       <ul> <!-- An undefined list with each item identified below. will appear as bullets         -->
             <li>Pencils</li>
             <li>Peanut Butter</li>
             <li>Ponies</li>
