@@ -24,3 +24,21 @@ header{
 header h1 { /*taking h1 inside the header and add stlye on top / specific to what is required for h1*/
     font-size: 40px;
 }
+
+.card {
+    width: 300px;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 5px;            /*this curves the border*/
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: midnightblue;
+    box-shadow: 5px 5px 5px 5px lightgray;  /* moves 5px to the right 5px down opacity (see through) and blur changing the first 2 to -5px -5px would move to the right and up current colour would keep the box shadow the same colour as the main text*/
+}  
+
+.card img {
+    margin: 10px;
+    min-height: 300px;
+    border-radius: 30px;
+}
