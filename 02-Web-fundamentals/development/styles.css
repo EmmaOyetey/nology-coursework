@@ -37,8 +37,22 @@ header h1 { /*taking h1 inside the header and add stlye on top / specific to wha
     box-shadow: 5px 5px 5px 5px lightgray;  /* moves 5px to the right 5px down opacity (see through) and blur changing the first 2 to -5px -5px would move to the right and up current colour would keep the box shadow the same colour as the main text*/
 }  
 
-.card img {
+.card img {                                    /*to access a class use a . */
     margin: 10px;
     min-height: 300px;
     border-radius: 30px;
+}
+
+h2, h3, h4, h5, h6 {
+    text-decoration: underline;
+    font-size: 30px ;
+}
+
+#penelope-list {                                /*to acess an id use a #*/
+    list-style-type: none;                      /*removes the bullet points from the list */
+}
+
+span {
+    font-size: 1.5em;                           /*em will make it 1.5 x the size of the font size of the tag it sits inside. */
+    color: #b48ce0;
 }
