@@ -1,0 +1,45 @@
+*{  /*styles the whole sheet */
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+*::selection {                                  /* selection is when the user highlights. because we used * this applies to anywhere on the page so when the user highlights the background becomes blue and the text white */
+    color: white;
+    background-color: #1182eb;
+}
+
+body{
+    background-color: white;
+    max-width: 1400px;
+    margin: auto;
+}
+
+h1, h2, h3, h4 {
+    font-size: 16px ;
+}
+
+#nology {                                /*to acess an id use a #*/
+    list-style-type: none;                      /*removes the bullet points from the list */
+}
+
+.panel {
+    width: 600px;
+    height: auto;
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    color: midnightblue;
+}  
+
+.panel ul {
+    margin: 10px; /* Reset margin to remove default space */
+    padding: 0; /* Reset padding to remove default space */
+}
+
+.panel ul li {
+    list-style-type: disc; /* Set the desired list style type */
+    margin-bottom: 5px; /* Add some space between list items */
+}
