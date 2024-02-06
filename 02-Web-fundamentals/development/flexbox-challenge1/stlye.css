@@ -4,7 +4,7 @@
     font-family: Tahoma, Verdana, sans-serif;
 }
 
-*::selection {                                  /* selection is when the user highlights. because we used * this applies to anywhere on the page so when the user highlights the background becomes blue and the text white */
+*::selection {         /* changing style when user highlights any content */
     color: white;
     background-color: #1182eb;
 }
@@ -19,9 +19,31 @@ h1, h2, h3, h4 {
     font-size: 16px ;
 }
 
-#nology {                                /*to acess an id use a #*/
-    list-style-type: none;                      /*removes the bullet points from the list */
+#navigation-bar {
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    margin: 10px; /* Reset margin to remove default space */
+    padding: 0; /* Reset padding to remove default space */
+    font-size: 14px;
 }
+
+.navigation-bar ul li {
+    list-style-type: none; /* Set the desired list style type */
+    padding: 10px;
+    margin: 10px;
+}
+
+#navigation-bar li span {
+    /* Set span to block and width to 100% */
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    background-color: green; /* Background color to green */
+    color: white;
+    width: auto;
+  }
+
 
 .panel {
     width: 600px;
@@ -35,8 +57,10 @@ h1, h2, h3, h4 {
 }  
 
 .panel ul {
+    font-size: 14px;
     margin: 10px; /* Reset margin to remove default space */
     padding: 0; /* Reset padding to remove default space */
+    padding-left: 40px; /* Add padding to move bullets to the right */
 }
 
 .panel ul li {
