@@ -31,11 +31,11 @@ nav{
     padding: 10px;
   }
 
-.link{
+.link {
     padding: 10px;
 }
 .panel {
-    width: 600px;
+    width: auto;
     height: auto;
     border: 1px solid black;
     text-align: left;
@@ -66,3 +66,11 @@ nav{
     list-style-type: disc; /* Set the desired list style type */
     margin-bottom: 5px; /* Add some space between list items */
 }
+
+/* not finished yet
+.flex-container-one {
+height: 1400px;
+justify-content: flex-end;
+align-items: center ;
+flex-wrap: wrap;
+} */
