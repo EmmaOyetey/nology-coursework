@@ -15,46 +15,36 @@ body{
     margin: auto;
 }
 
-h1, h2, h3, h4 {
-    font-size: 16px ;
-}
-
-#navigation-bar {
-    list-style-type: none;
+nav{  
     background-color: black;
     color: white;
-    margin: 10px; /* Reset margin to remove default space */
-    padding: 0; /* Reset padding to remove default space */
     font-size: 14px;
+    text-align: center;
 }
 
-.navigation-bar ul li {
-    list-style-type: none; /* Set the desired list style type */
-    padding: 10px;
-    margin: 10px;
-}
-
-#navigation-bar li span {
-    /* Set span to block and width to 100% */
-    display: block;
-    width: 100%;
-    text-decoration: none;
+#nology{
     background-color: green; /* Background color to green */
     color: white;
-    width: auto;
+    margin: 0;
+    padding: 10px;
   }
 
-
+.link{
+    padding: 10px;
+}
 .panel {
     width: 600px;
     height: auto;
     border: 1px solid black;
     text-align: left;
     padding: 10px;
-    margin: 10px;
     background-color: white;
     color: midnightblue;
 }  
+
+.panel h1, .panel h2, .panel h3, .panel h4 {
+    font-size: 16px ;
+}
 
 .panel ul {
     font-size: 14px;
