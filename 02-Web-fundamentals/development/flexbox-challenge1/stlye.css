@@ -20,8 +20,9 @@ nav{
     background-color: black;
     color: white;
     font-size: 14px;
-    text-align: center;
+    text-align: centre;
     margin-bottom: 20px;
+    display: flex; /* Make the nav section a flex container */
 }
 
 #nology{
@@ -29,11 +30,15 @@ nav{
     color: white;
     margin: 0;
     padding: 10px;
+    flex: 1;  
   }
 
 .link {
     padding: 10px;
+    flex: auto;
+    flex-basis: calc(1/8 * 100%); /* Each "link" div takes up 1/6 of the width */
 }
+
 .panel {
     width: auto;
     height: auto;
@@ -48,7 +53,6 @@ nav{
     text-align: justify;
     font-size: 14px;
     padding: 10px;
-
 }
 
 .panel h1, .panel h2, .panel h3, .panel h4 {
