@@ -30,13 +30,14 @@ nav{
     color: white; /*text white */
     margin: 0;
     padding: 10px;
-    flex: 1;  
+    flex: 1.5;  
   }
 
 .link {
     padding: 10px;
-    flex: auto;
-    flex-basis: calc(1/8 * 100%); /* Each "link" div takes up 1/6 of the width */
+    text-align: center;
+    flex-basis: calc(5/8 * 100%); /* Each "link" div takes up 1/6 of the width */
+    justify-content: flex-end;
 }
 
 .panel { /*styling the panel sections */
