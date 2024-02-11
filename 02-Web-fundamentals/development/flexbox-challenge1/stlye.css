@@ -27,7 +27,7 @@ nav{
 
 #nology{
     background-color: green; /* Background color to green */
-    color: white;
+    color: white; /*text white */
     margin: 0;
     padding: 10px;
     flex: 1;  
@@ -39,7 +39,7 @@ nav{
     flex-basis: calc(1/8 * 100%); /* Each "link" div takes up 1/6 of the width */
 }
 
-.panel {
+.panel { /*styling the panel sections */
     width: auto;
     height: auto;
     border: 1px solid black;
@@ -55,7 +55,7 @@ nav{
     padding: 10px;
 }
 
-.panel h1, .panel h2, .panel h3, .panel h4 {
+.panel h1, .panel h2, .panel h3, .panel h4 { /*specifying the headers within the panels */
     font-size: 16px ;
 }
 
@@ -71,10 +71,3 @@ nav{
     margin-bottom: 5px; /* Add some space between list items */
 }
 
-/* not finished yet
-.flex-container-one {
-height: 1400px;
-justify-content: flex-end;
-align-items: center ;
-flex-wrap: wrap;
-} */
