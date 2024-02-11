@@ -23,26 +23,26 @@ nav{
     text-align: centre;
     margin-bottom: 20px;
     display: flex; /* Make the nav section a flex container */
+    justify-content: space-between;
 }
 
 #nology{
     background-color: green; /* Background color to green */
     color: white; /*text white */
-    margin: 0;
-    padding: 10px;
-    flex: 1.5;  
+    justify-content: center;
+    padding: 20px;
   }
 
 .link {
     padding: 10px;
     text-align: center;
-    flex-basis: calc(5/8 * 100%); /* Each "link" div takes up 1/6 of the width */
     justify-content: flex-end;
 }
 
 a {
     text-decoration: none;
     color: white;
+    padding: 20px;
 }
 
 a:hover { /*links change styling when hovered over */
