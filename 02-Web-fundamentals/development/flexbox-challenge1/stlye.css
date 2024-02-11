@@ -40,6 +40,16 @@ nav{
     justify-content: flex-end;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover { /*links change styling when hovered over */
+    background-color: white;
+    color: black;
+  }
+
 .panel { /*styling the panel sections */
     width: auto;
     height: auto;
