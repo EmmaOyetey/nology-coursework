@@ -48,44 +48,46 @@
 
 
 .contact-form {
-        border: 2px solid; /* Border around the form */
+        /* to add a border around the form border: 2px solid;  */
         padding: 20px; /* Padding inside the form */
         width: 300px; /* Set width of the form */
-        height: auto;
         margin: 0 auto; /* Center the form horizontally */
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: column; /*to stack on top */
+        align-items: flex-start; /*to stack from the top */
+        border-radius: 20px; /* to round the edges */
+        background-color: $color-white;
+        color: $color-primary;
 
         .label {
-            font-size: 25px;
-            font-family: $font-body;
+            font-size: 20px;
                 width: 100%; /* Make input fields fill the width of the form */
-                padding: px; /* Padding inside the input fields */
-                margin-bottom: 5px; /* Add space between input fields */
+                margin-bottom: 5px; /* Add space between label and input fields */
         }
 
         .input {
             width: 100%;
             height: 30px;
+            margin-bottom: 10px; /*add space between input field and next label */
             cursor: pointer; /* Change cursor to pointer on hover */
         }
 
         .submit-button {
-            font-family: $font-body;
             background-color: $color-submit;
-            width: 100%;
-            height: 30px;
-            margin: 10px 0 ;
-            padding-bottom: 5px;
+            width: 100%; /* make button width of the form */
+            padding: 10px; /*padding - space between text and edge of buttton */
+            margin-top: 10px; /*adding more space between above the button */
             font-size: 20px;
             color: $color-white;
+            border: none; /*removes border line */
+            border-radius: 10px;
         }
 }
 
 .wave {
     fill-opacity: 1;
     fill: $color-primary;
-
+    margin-bottom: -1px;
+    vertical-align: bottom;
     
 }

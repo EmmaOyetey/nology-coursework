@@ -1,6 +1,17 @@
+@use "./variables" as *;
+
 .header {
-    height: 40vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contact {
+
+    min-height: 35vh;
+    padding-bottom: 20px; /* added padding under the contact form */
+    display: flex ;
+    justify-content: center;
+    background-color: $color-primary;
 }
