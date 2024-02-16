@@ -1,13 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap'); /*importing 2 fonts roboto and dancing from google fonts for use on the web page/site */
-
-/*creating variables which can be used references and then used throughout */
-$font-body: "Roboto" , "sans-serif" ;
-$font-display: "dancing" , cursive ;
-$color-primary: #28527a;
-$color-primary-light: #55a570;
-$color-secondary:#f0a500;
-$color-black: #333333;
-$color-white: #fafafa;
+@use "./variables" as * ;
+@use "./components" ;
+@use "./layouts" ;
 
 /*applying styling to the whole sheet */
 * {
@@ -18,35 +11,8 @@ $color-white: #fafafa;
     color: $color-black;
 }
 
-/*removing the underline of the link and when it has been visited (the cooma applies it to both */
+/*removing the underline of the link and when it has been visited (the coma applies it to both */
 a:link,
 a:visited {
     text-decoration: none;
-}
-
-.button{
-        display: block;
-        width: 100px;
-        background-color: $color-secondary;
-        text-align: center;
-        padding: 10px 20px;
-        border-radius: 10px;
-        color: $color-white;
-    }
-
-.navigation {
-    height: 10vh;
-    background-color: $color-primary;
-    padding: 0 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    /*nesting styling for the class logo inside the class navigation*/
-
-    .logo{
-        color: $color-white;
-        font-size: 20px;
-        font-family: $font-display;
-    }
 }
