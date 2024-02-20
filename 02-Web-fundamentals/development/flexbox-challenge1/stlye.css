@@ -4,7 +4,7 @@
     font-family: Tahoma, Verdana, sans-serif;
 }
 
-*::selection {         /* changing style when user highlights any content */
+*::selection {  /* changing style when user highlights any content */       
     color: white;
     background-color: #1182eb;
 }
@@ -17,26 +17,25 @@ nav{
     justify-content: space-between;
 }
 
-#nology{
+#nology{ /*styling the logo */
     background-color: green; /* Background color to green */
     color: white; /*text white */
     width: 15%;
     padding: 10px;
     text-align: center;
     justify-content: center;
+}
 
-  }
-
-.link {
+.link { /*styling the box container for the nav bar links */
     padding:10px;
     text-align: center;
     justify-content: center;
 }
 
-a {
+a { /*styling the links themselves */
     text-decoration: none;
     color: white;
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 a:hover { /*links change styling when hovered over */
@@ -44,43 +43,43 @@ a:hover { /*links change styling when hovered over */
     color: black;
   }
 
-  main{
+  main{ /*styling the main section and setting to a flex container */
     background-color: white;
     display: flex;
     justify-content: space-between;
 }
 
-#right-panel {
+#right-panel { /*setting the flex container for the right panel (where it appears on the page) */
     width: 33.33%;
     flex-direction: column;
     justify-content: space-between;
-    height: auto;
+    height: auto; /*ensuring it fits the length of the page */
     border: 1px solid black;
     margin: 10px;
 }
 
-.Righthandpanel {
+.panelR { /*styling the format of the content of the right panel */
     text-align: left;
+    line-height: 1.5; /* Example: 1.5 times the font size */
     padding: 10px;
     background-color: white;
     color: black;
 }
 
-.Righthandpanel p {
+.panelR p {/*styling the written contnet in the right panel */
     text-align: justify;
     font-size: 14px;
     margin: 10px;
 }
 
-#left-panel {
-        width: 66.67%;
-        display: flex;
-        flex-direction: column;
-        justify-content: top;
-        
+#left-panel { /*styling the left panel and setting as a container - where it appears on the page */
+    width: 66.67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;  
 }
 
-.panel { /*styling the panel sections */
+.panel { /*styling the left panel sections */
     border: 1px solid black;
     text-align: left;
     padding: 10px;
@@ -89,18 +88,18 @@ a:hover { /*links change styling when hovered over */
     margin: 10px;
 }  
 
-.panel h1, .panel h2, .panel h3, .panel h4 { /*specifying the headers within the panels */
+.panel h1, .panel h2, .panel h3, .panel h4 { /*specifying the headers within the panels - note could call them all h1 then they would appear the same*/
     font-size: 16px ;
 }
 
-.panel ul {
+.panel ul { /* styling the list */
     font-size: 14px;
     margin: 10px; /* Reset margin to remove default space */
     padding: 0; /* Reset padding to remove default space */
     padding-left: 40px; /* Add padding to move bullets to the right */
 }
 
-.panel ul li {
+.panel ul li { /*styling the bullets in the list */
     list-style-type: disc; /* Set the desired list style type */
     margin-bottom: 5px; /* Add some space between list items */
 }
